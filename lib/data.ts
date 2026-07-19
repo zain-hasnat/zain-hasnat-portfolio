@@ -345,7 +345,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "Pet Care",
     description:
       "Built a full SEO and content workflow from scratch for a pet care brand — keyword research, content briefs, on-page optimization and internal linking, structured around topical authority.",
-    results: [{ label: "Ranking Keywords", value: "2,000+" }],
+    results: [{ label: "Ranking Keywords", value: "3,000+" }],
     disciplines: ["Content SEO", "Blogging", "Topical Authority"],
     overview:
       "Focus Pet Care needed an SEO and content foundation built from the ground up. I set up the full workflow \u2014 from keyword research through content briefs to on-page execution \u2014 so the site could be built for topical authority from day one.",
