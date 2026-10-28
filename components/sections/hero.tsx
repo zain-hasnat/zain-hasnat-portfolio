@@ -8,7 +8,7 @@ import { FadeIn } from "@/components/fade-in";
 
 export function Hero() {
   return (
-    <section id="home" className="scroll-mt-16 pb-20 pt-16 sm:pb-28 sm:pt-24">
+    <section id="home" className="scroll-mt-16 pb-8 pt-16 sm:pb-10 sm:pt-24">
       <div className="container-x grid grid-cols-1 items-center gap-12 lg:grid-cols-[1fr_320px]">
         <FadeIn>
           <Badge>{hero.badge}</Badge>
