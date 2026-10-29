@@ -244,7 +244,7 @@ export const caseStudies: CaseStudy[] = [
     results: [
       { label: "Search Impressions", value: "250K+" },
       { label: "US Traffic", value: "1.2K" },
-      { label: "Monthly Clicks", value: "20–30" },
+      { label: "Daily Clicks", value: "20–30" },
     ],
     disciplines: ["Technical SEO", "On-Page SEO", "Off-Page SEO", "Local SEO (Multi-Location)"],
     overview:
@@ -257,7 +257,7 @@ export const caseStudies: CaseStudy[] = [
       "Optimized the Google Business Profile per location and ran technical audits to support indexing and crawl health.",
     ],
     outcome:
-      "MHS Crane's service pages have achieved #1 rankings for keywords including \u201cElectric Hoist Repair,\u201d \u201cIndustrial Crane Modernization Services\u201d and \u201cOSHA Crane Inspection Services,\u201d with visibility in Google AI Overviews. Current reported performance includes 250K search impressions, approximately 1.2K in US traffic, and 20–30 clicks per month.",
+      "MHS Crane's service pages have achieved #1 rankings for keywords including \u201cElectric Hoist Repair,\u201d \u201cIndustrial Crane Modernization Services\u201d and \u201cOSHA Crane Inspection Services,\u201d with visibility in Google AI Overviews. Current reported performance includes 250K search impressions, approximately 1.2K in US traffic, and 20–30 clicks per day.",
     images: [
       { src: "/images/case-studies/mhs-crane-keyword-rank-emergency-repair-april.png", caption: "April — ranked #2 for \u201cEmergency Crane Repair\u201d in Pompano Beach, FL" },
       { src: "/images/case-studies/mhs-crane-keyword-rank-modernization-may.png", caption: "May — ranked #1 for \u201cIndustrial Crane Modernization Services\u201d in Pompano Beach, FL" },
