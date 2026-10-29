@@ -31,12 +31,12 @@ export const navLinks = [
 ];
 
 export const hero = {
-  badge: "SEO Specialist • Technical SEO • AI Search",
+  badge: "SEO Specialist • Technical SEO • Local SEO • AI Search",
   heading: "Hi, I'm Zain Hasnat",
   subheading:
-    "Helping businesses grow through Technical SEO, Local SEO, Content Strategy and AI Search Optimization.",
+    "Helping businesses grow organic visibility through technical SEO, local search, content strategy, and AI search optimization.",
   intro:
-    "Execution-focused SEO Specialist with 2+ years of hands-on experience across technical, local, content and e-commerce SEO. I improve organic visibility, strengthen keyword rankings and optimize content for search intent — applying semantic SEO and AEO principles so sites perform across traditional, AI-driven and conversational search.",
+    "I'm an SEO Specialist with 2+ years of hands-on experience turning search data into practical improvements. I combine technical analysis, search-intent-led content, and local SEO to strengthen rankings and help websites get discovered across traditional and AI-powered search.",
   image: {
     src: "/images/zain-hasnat-profile.jpg",
     alt: "Portrait of Zain Hasnat, SEO Specialist",
@@ -53,9 +53,9 @@ export const keyResults = [
 export const about = {
   heading: "About",
   paragraphs: [
-    "I'm an SEO Specialist based in Pakistan with 2+ years of hands-on experience across technical, local, content and e-commerce SEO. My background is in commerce and digital marketing, and I found my focus in SEO — the mix of technical problem-solving, content strategy and measurable growth that keeps me interested in the work.",
-    "I've worked across industries including asphalt and paving, industrial equipment, HVAC and home services, automotive dealerships, pet care, home retail and healthcare — running keyword research, on-page optimization, technical audits and local SEO campaigns that move real rankings.",
-    "More recently, I've been applying semantic SEO and Answer Engine Optimization (AEO) principles to structure sites and content so they perform not just in traditional search, but across AI-driven and conversational search experiences like ChatGPT, Gemini and Google AI Overviews.",
+    "I'm an SEO Specialist based in Pakistan with 2+ years of hands-on experience across technical, local, content and e-commerce SEO. I combine technical problem-solving, search-intent-led content, and performance analysis to identify practical opportunities for organic growth.",
+    "My experience spans asphalt and paving, industrial equipment, HVAC and home services, automotive, pet care, home retail, and healthcare. Across these industries, I've worked on keyword research, on-page improvements, technical audits, and local SEO campaigns.",
+    "I also apply semantic SEO and Answer Engine Optimization (AEO) principles to help websites communicate expertise clearly and improve their visibility across traditional search and AI-driven experiences such as ChatGPT, Gemini, and Google AI Overviews.",
   ],
   highlights: [
     "Technical SEO & site health audits",
@@ -77,7 +77,7 @@ export type ExperienceItem = {
 export const experience: ExperienceItem[] = [
   {
     company: "Alev Digital",
-    role: "SEO Executive",
+    role: "SEO Specialist",
     period: "2025 — Present",
     location: "Digital Marketing Agency",
     summary:
@@ -92,7 +92,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     company: "ELANDS",
-    role: "SEO Executive",
+    role: "SEO Specialist",
     period: "Oct 2024 — Mar 2025",
     location: "Digital Marketing Agency",
     summary:
@@ -242,9 +242,9 @@ export const caseStudies: CaseStudy[] = [
     description:
       "On-page, off-page and technical SEO for a multi-location industrial crane and hoist service company, with per-location Google Business Profile optimization.",
     results: [
-      { label: "Organic Keywords", value: "217 → 367" },
-      { label: "AI Cited Pages", value: "16 → 20" },
-      { label: "Search Clicks (90 days)", value: "842" },
+      { label: "Search Impressions", value: "250K+" },
+      { label: "US Traffic", value: "1.2K" },
+      { label: "Monthly Clicks", value: "20–30" },
     ],
     disciplines: ["Technical SEO", "On-Page SEO", "Off-Page SEO", "Local SEO (Multi-Location)"],
     overview:
@@ -257,7 +257,7 @@ export const caseStudies: CaseStudy[] = [
       "Optimized the Google Business Profile per location and ran technical audits to support indexing and crawl health.",
     ],
     outcome:
-      "MHS Crane's service pages now rank #1 for keywords including \u201cElectric Hoist Repair,\u201d \u201cIndustrial Crane Modernization Services\u201d and \u201cOSHA Crane Inspection Services\u201d (also featured in Google AI Overviews), with organic keywords growing from 217 to 367 and the site generating 842 clicks and 130K impressions in Search Console over a 90-day period.",
+      "MHS Crane's service pages have achieved #1 rankings for keywords including \u201cElectric Hoist Repair,\u201d \u201cIndustrial Crane Modernization Services\u201d and \u201cOSHA Crane Inspection Services,\u201d with visibility in Google AI Overviews. Current reported performance includes 250K search impressions, approximately 1.2K in US traffic, and 20–30 clicks per month.",
     images: [
       { src: "/images/case-studies/mhs-crane-keyword-rank-emergency-repair-april.png", caption: "April — ranked #2 for \u201cEmergency Crane Repair\u201d in Pompano Beach, FL" },
       { src: "/images/case-studies/mhs-crane-keyword-rank-modernization-may.png", caption: "May — ranked #1 for \u201cIndustrial Crane Modernization Services\u201d in Pompano Beach, FL" },
@@ -267,9 +267,9 @@ export const caseStudies: CaseStudy[] = [
       { src: "/images/case-studies/mhs-crane-keyword-rank-hoist-repair-june.png", caption: "June — ranked #1 for \u201cExpert Hoist Repair Services\u201d" },
       { src: "/images/case-studies/mhs-crane-blog-performance-june.png", caption: "MHS Crane blog ranked #1 and featured in Google AI Overviews for \u201cHow to Choose the Right Overhead Bridge Crane\u201d" },
       { src: "/images/case-studies/mhs-crane-gbp-rank-hoist-repair-june.png", caption: "Google Business Profile ranked #1 for \u201celectric hoist repair\u201d" },
-      { src: "/images/case-studies/mhs-crane-domain-performance-overview.png", caption: "Domain performance before/after — organic keywords grew from 217 to 367 and AI-cited pages from 16 to 20" },
+      { src: "/images/case-studies/mhs-crane-domain-performance-overview.png", caption: "Historical domain performance comparison — organic keyword and AI-citation growth" },
       { src: "/images/case-studies/mhs-crane-search-console-top-pages.png", caption: "Search Console — top pages by clicks and impressions" },
-      { src: "/images/case-studies/mhs-crane-search-console-performance-trend.png", caption: "Search Console — 842 clicks and 130K impressions over a 90-day period" },
+      { src: "/images/case-studies/mhs-crane-search-console-performance-trend.png", caption: "Historical Search Console performance snapshot — 90-day period" },
     ],
   },
   {
@@ -345,7 +345,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "Pet Care",
     description:
       "Built a full SEO and content workflow from scratch for a pet care brand — keyword research, content briefs, on-page optimization and internal linking, structured around topical authority.",
-    results: [{ label: "Ranking Keywords", value: "3,000+" }],
+    results: [{ label: "Ranking Keywords", value: "2,000+" }],
     disciplines: ["Content SEO", "Blogging", "Topical Authority"],
     overview:
       "Focus Pet Care needed an SEO and content foundation built from the ground up. I set up the full workflow \u2014 from keyword research through content briefs to on-page execution \u2014 so the site could be built for topical authority from day one.",
@@ -357,7 +357,7 @@ export const caseStudies: CaseStudy[] = [
       "Implemented on-page optimization and internal linking to reinforce topical authority.",
     ],
     outcome:
-      "The site's content and internal linking structure now supports rankings across 2,000+ keywords, with a workflow in place to keep expanding coverage.",
+      "The site's content and internal linking structure supports rankings across 2,000+ keywords, with a repeatable content workflow in place to expand topical coverage over time.",
     images: [],
   },
   {
