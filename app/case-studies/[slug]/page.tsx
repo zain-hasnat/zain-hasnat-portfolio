@@ -100,7 +100,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(projectJsonLd) }}
       />
 
-      <div className="container-x max-w-3xl">
+      <div className="container-x max-w-4xl">
         <FadeIn>
           <Link
             href="/#case-studies"
@@ -150,11 +150,10 @@ export default async function CaseStudyPage({ params }: PageProps) {
         {cs.results.length > 0 ? (
           <FadeIn delay={0.1}>
             <div
-              className="mt-10 grid gap-4 border-y border-border py-6"
-              style={{ gridTemplateColumns: `repeat(${cs.results.length}, minmax(0, 1fr))` }}
+              className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3"
             >
               {cs.results.map((r) => (
-                <div key={r.label}>
+                <div key={r.label} className="rounded-xl border border-border bg-card p-5">
                   <dt className="text-[12px] uppercase tracking-wide text-muted-foreground">
                     {r.label}
                   </dt>
@@ -197,8 +196,8 @@ export default async function CaseStudyPage({ params }: PageProps) {
           {cs.images.length > 1 ? (
             <FadeIn>
               <section>
-                <h2 className="text-xl font-semibold text-foreground">Results &amp; Screenshots</h2>
-                <div className="mt-5 grid grid-cols-1 gap-8 sm:grid-cols-2">
+                <h2 className="text-xl font-semibold text-foreground">Evidence &amp; Screenshots</h2>
+                <div className="mt-5 grid grid-cols-1 gap-6 sm:grid-cols-2">
                   {cs.images.slice(1).map((img) => (
                     <figure key={img.src}>
                       <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg border border-border bg-muted">
