@@ -11,7 +11,7 @@ export function Experience() {
           <SectionHeading
             eyebrow="Experience"
             title="Where I've worked"
-            description="A timeline of the teams and clients I've helped grow through search."
+            description="My professional journey across SEO strategy, technical improvements, content, and search visibility."
           />
         </FadeIn>
 
@@ -36,7 +36,7 @@ export function Experience() {
                 </p>
                 <ul className="mt-4 space-y-2">
                   {item.achievements.map((a, idx) => (
-                    <li key={idx} className="flex items-start gap-2 text-[14px] text-foreground">
+                    <li key={idx} className="flex items-start gap-2 text-[14px] leading-relaxed text-foreground">
                       <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent" />
                       {a}
                     </li>
