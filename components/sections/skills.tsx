@@ -10,8 +10,8 @@ export function Skills() {
         <FadeIn>
           <SectionHeading
             eyebrow="Skills"
-            title="What I specialize in"
-            description="A focused set of disciplines spanning technical, local, content and AI search."
+            title="SEO Specializations"
+            description="The core disciplines I use to improve search visibility, strengthen site foundations, and support sustainable organic growth."
           />
         </FadeIn>
 
