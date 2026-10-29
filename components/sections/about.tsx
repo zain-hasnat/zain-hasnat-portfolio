@@ -8,7 +8,7 @@ export function About() {
     <section id="about" className="scroll-mt-16 py-20 sm:py-28">
       <div className="container-x">
         <FadeIn>
-          <SectionHeading eyebrow="About" title="A little about my approach" />
+          <SectionHeading eyebrow="About" title="How I approach SEO" />
         </FadeIn>
 
         <div className="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr]">
