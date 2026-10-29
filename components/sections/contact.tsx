@@ -33,8 +33,8 @@ export function Contact() {
         <FadeIn>
           <SectionHeading
             eyebrow="Contact"
-            title="Let's work together"
-            description="Open to remote roles and freelance SEO projects. Reach out through any of the channels below."
+            title="Let’s discuss your next SEO opportunity"
+            description="I’m open to remote SEO opportunities and freelance projects. If you’re looking for support with technical SEO, local search, or content optimization, I’d be glad to connect."
           />
         </FadeIn>
 
