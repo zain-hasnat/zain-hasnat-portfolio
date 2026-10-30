@@ -8,9 +8,6 @@ export function Footer() {
       <div className="container-x flex flex-col gap-6 py-10 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="text-[14px] font-medium text-foreground">{siteConfig.name}</p>
-          <p className="mt-1 text-[13px] text-muted-foreground">
-            Built with Next.js, TypeScript &amp; Tailwind CSS. Optimized for SEO and AI Search.
-          </p>
         </div>
 
         <ul className="flex flex-wrap gap-x-6 gap-y-2">
